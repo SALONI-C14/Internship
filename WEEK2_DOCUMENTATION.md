@@ -87,30 +87,49 @@ Use `npm run build` to create a production build and `npm run lint` to check cod
 
 ## 11. Testing
 
-The components were tested in the browser to verify their functionality and responsiveness.
+The components were tested in the browser at different screen sizes.
 
-| Test | Device / Viewport | Result |
+| Test | Viewport | Result |
 |---|---|---|
-| Component layout | Desktop – 1440px | Passed |
-| Responsive layout | Tablet – 768px | Passed |
-| Responsive layout | Mobile – 375px | Passed |
-| Button interactions | Desktop browser | Passed |
-| Form validation | Desktop browser | Passed |
-| Modal open/close | Desktop browser | Passed |
-| Navbar responsiveness | Mobile browser view | Passed |
+| Desktop layout | 1440px | Passed |
+| Tablet layout | 768px | Passed |
+| Mobile layout | 375px | Passed |
+| Button interaction | Browser | Passed |
+| Form validation | Browser | Passed |
+| Modal interaction | Browser | Passed |
 | Production build | Vite | Passed |
-| ESLint check | Local development | Passed |
+| ESLint check | Local | Passed |
 
 ## 12. Evidence
 
-The following screenshots are included as evidence of the implementation:
+### 12.1 Complete Component Library
 
-1. Complete UI component library
-2. Button variants
-3. Card components
-4. Form and validation
-5. Modal interaction
-6. Mobile responsive layout
-7. Project component structure in VS Code
-8. Successful production build
-9. Successful ESLint check
+![Complete UI](screenshots/component-library.png)
+
+### 12.2 Button Components
+
+![Button Components](screenshots/buttons.png)
+
+### 12.3 Form and Validation
+
+![Form Validation](screenshots/form-validation.png)
+
+### 12.4 Modal
+
+![Modal](screenshots/modal.png)
+
+### 12.5 Responsive Mobile View
+
+![Mobile View](screenshots/mobile-view.png)
+
+### 12.6 Project Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+### 12.7 Production Build
+
+![Build](screenshots/build.png)
+
+### 12.8 ESLint
+
+![ESLint](screenshots/lint.png)

@@ -1,76 +1,42 @@
-# ReactJS Project Setup and Planning
+# ReactJS Reusable UI Component Library
 
-A simple ReactJS application for the Week 1 internship assignment. It uses Vite for a quick, beginner-friendly setup and demonstrates reusable components.
+A reusable and responsive UI component library built with ReactJS and Vite for the Week 2 internship assignment.
 
-## Week 1 Objectives
+The project demonstrates how reusable React components can be created with props, consistent styling, responsive design, and basic accessibility practices.
 
-- Set up a ReactJS project with Vite.
-- Create a clean folder structure.
-- Build reusable Header, Footer, Button, and Card components.
-- Use ESLint and Prettier for consistent code.
+## Week 2 Objectives
+
+- Build reusable React UI components.
+- Create consistent and responsive component designs.
+- Use props to make components flexible and reusable.
+- Follow basic accessibility practices.
+- Document component usage and implementation.
+- Maintain clean and organized project structure.
+
+## Components
+
+The project includes five reusable components:
+
+- **Button** — Multiple variants and sizes with different states.
+- **Card** — Reusable content cards with optional images, badges, and actions.
+- **Input** — Accessible form input with labels, validation, and error states.
+- **Navbar** — Responsive navigation component.
+- **Modal** — Reusable accessible modal with open and close functionality.
 
 ## Technologies Used
 
-- React and ReactDOM
+- ReactJS
+- ReactDOM
 - Vite
+- JavaScript
+- JSX
+- CSS
 - ESLint
 - Prettier
-- Git and GitHub
 
 ## Installation
 
-1. Install the current LTS version of [Node.js](https://nodejs.org/).
-2. Open this project folder in a terminal.
-3. Run `npm install`.
-
-## Run the Project
+Clone the repository and open the project folder in a terminal.
 
 ```bash
-npm run dev
-```
-
-Open the local address printed in the terminal (normally `http://localhost:5173`).
-
-## Production Build
-
-```bash
-npm run build
-```
-
-The optimized files are created in `dist/`.
-
-## Project Structure
-
-```text
-src/
-├── assets/
-├── components/
-│   ├── common/Card.jsx
-│   ├── layout/Header.jsx
-│   ├── layout/Footer.jsx
-│   └── ui/Button.jsx
-├── pages/
-├── hooks/
-├── services/
-├── utils/
-├── App.jsx
-├── App.css
-└── main.jsx
-```
-
-## Coding Standards
-
-- Use JavaScript and JSX.
-- Keep components small and reusable.
-- Run `npm run lint` before committing.
-- Run `npm run format` to apply Prettier formatting.
-
-## GitHub Instructions
-
-Create a GitHub repository, then run `git init`, `git add .`, and `git commit -m "Initial ReactJS setup"`. Add the GitHub remote you created and push your branch. Do not commit `node_modules/`, `dist/`, or `.env`.
-
-## Future Development Roadmap
-
-- Add pages and navigation.
-- Add API integration when required.
-- Add tests as the application grows.
+npm install

@@ -1,0 +1,14 @@
+.task-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.task-filter button {
+  background: #e2e8f0;
+  color: #334155;
+  text-transform: capitalize;
+}
+.task-filter button.is-active {
+  background: #1e3a8a;
+  color: #fff;
+}

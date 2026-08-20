@@ -1,0 +1,30 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.task-item__label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+.task-item input {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: #2563eb;
+}
+.task-item--completed span {
+  color: #64748b;
+  text-decoration: line-through;
+}
+.task-item__delete {
+  padding: 0.45rem 0.75rem;
+  background: #dc2626;
+}
+.task-item__delete:hover {
+  background: #b91c1c;
+}

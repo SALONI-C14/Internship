@@ -1,0 +1,43 @@
+.task-form {
+  display: flex;
+  gap: 0.75rem;
+}
+.task-form input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #94a3b8;
+  border-radius: 7px;
+  padding: 0.75rem;
+  font: inherit;
+}
+.task-form input:focus {
+  border-color: #2563eb;
+  outline: 3px solid #bfdbfe;
+}
+.task-form button,
+.task-filter button,
+.task-item__delete {
+  border: 0;
+  border-radius: 7px;
+  padding: 0.7rem 1rem;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+.task-form button:hover,
+.task-filter button:hover {
+  background: #1d4ed8;
+}
+.task-form button:focus-visible,
+.task-filter button:focus-visible,
+.task-item__delete:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+@media (max-width: 480px) {
+  .task-form {
+    flex-direction: column;
+  }
+}

@@ -25,11 +25,11 @@ module.exports = [
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react/jsx-uses-vars': 'error',
-      'react-refresh/only-export-components': [
+      'react-refresh/only-export-components': 'off',
+      'no-unused-vars': [
         'warn',
-        { allowConstantExport: true },
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^React$' },
       ],
-      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     },
   },
 ];
